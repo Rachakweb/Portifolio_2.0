@@ -1,0 +1,50 @@
+.htb {
+    padding: 4rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #00ff00;
+}
+
+.cardLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    /* Make link fill the card */
+}
+
+.imageWrapper {
+    margin-bottom: 1rem;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.rank {
+    color: #00ff00;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    color: #ccc;
+    font-size: 0.9rem;
+}

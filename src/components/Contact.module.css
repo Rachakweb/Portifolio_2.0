@@ -1,0 +1,44 @@
+.contact {
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.socialLink {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.8rem 1.5rem;
+    background: #0d1117;
+    border: 1px solid #333;
+    color: var(--foreground);
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: lowercase;
+}
+
+.socialLink:hover {
+    background: var(--primary);
+    color: #000;
+    border-color: var(--primary);
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.socialLink::before {
+    content: 'ssh ';
+    color: #888;
+}
+
+.footer {
+    margin-top: 5rem;
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+    color: #666;
+    font-size: 0.8rem;
+}

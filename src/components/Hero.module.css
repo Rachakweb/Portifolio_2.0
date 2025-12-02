@@ -1,0 +1,44 @@
+.hero {
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-weight: normal;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    max-width: 700px;
+    margin-bottom: 3rem;
+    border: 1px dashed #333;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .tagline {
+        font-size: 1.2rem;
+    }
+
+    .actions {
+        flex-direction: column;
+        align-items: center;
+    }
+}
