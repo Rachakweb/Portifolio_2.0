@@ -87,15 +87,6 @@ export const experience = [
   },
 ];
 
-export const htbBadges = [
-  {
-    id: 1,
-    name: "HTB Academy Achievement",
-    image: "/htb-logo.png",
-    rank: "Badge",
-    link: "https://academy.hackthebox.com/achievement/badge/7e2b7af3-7e5b-11f0-9254-bea50ffe6cb4",
-  },
-];
 
 export const certifications = [
   {
@@ -110,14 +101,14 @@ export const certifications = [
     title: "Ethical Hacking Masterclass",
     issuer: "Infosys Springboard",
     date: "June 30, 2025",
-    image: "/certificates/infosys_eh.jpg", // Corrected mapping based on likely file names
+    image: "/certificates/infosys_eh.jpg", // Corrected mapping based on likely file names infosys_eh.jpg
   },
   {
     id: 3,
     title: "Cyber Security Internship",
     issuer: "Amroha Police Cyber Cell",
     date: "June 2025",
-    image: "/certificates/up_police_cs.jpg", // Corrected mapping
+    image: "/certificates/up_police_cs.jpg", // Corrected mapping up_police_cs.jpg
   },
 ];
 
