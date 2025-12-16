@@ -168,4 +168,13 @@
         height: 35px;
         background: rgba(var(--primary-rgb), 0.9);
     }
+
+    /* Mobile adjustments for content */
+    .content {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
 }

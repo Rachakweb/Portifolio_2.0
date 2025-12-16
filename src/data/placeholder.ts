@@ -110,6 +110,13 @@ export const certifications = [
     date: "June 2025",
     image: "/certificates/up_police_cs.jpg", // Corrected mapping up_police_cs.jpg
   },
+  {
+    id: 4,
+    title: "Certified CRPO",
+    issuer: "EU Cyber Academy",
+    date: "December 09, 2025",
+    image: "/certificates/eu_cyber_academy_crpo.jpg",
+  },
 ];
 
 export const cvLink = "/resume.jpg";

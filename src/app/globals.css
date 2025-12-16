@@ -66,6 +66,15 @@ h6 {
   text-shadow: 0 0 10px var(--primary-glow);
 }
 
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+}
+
 .btn {
   display: inline-block;
   padding: 0.8rem 1.6rem;
