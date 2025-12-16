@@ -88,6 +88,17 @@ export const experience = [
 ];
 
 
+
+export const htbBadges = [
+  {
+    id: 1,
+    name: "HTB Academy Achievement",
+    image: "/htb-logo.png",
+    rank: "Badge",
+    link: "https://academy.hackthebox.com/achievement/badge/7e2b7af3-7e5b-11f0-9254-bea50ffe6cb4",
+  },
+];
+
 export const certifications = [
   {
     id: 1,
