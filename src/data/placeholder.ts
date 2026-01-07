@@ -73,17 +73,24 @@ export const academic = [
 export const experience = [
   {
     id: 1,
-    role: "React Developer Intern",
-    company: "RICI-TECH",
-    period: "2022 - 2023",
-    description: "Contributed to the front-end development of Doctail UI as a React developer. Focused on building responsive, user-friendly interfaces, ensuring seamless user experiences.",
+    role: "Operation Manager Intern",
+    company: "ICCC",
+    period: "2026",
+    description: "Managed operations and coordinated team activities.",
   },
   {
     id: 2,
-    role: "Cyber Security Intern",
-    company: "Amroha Police (Cyber Cell)",
-    period: "Unknown", // Date not clear in OCR, assuming recent
-    description: "Worked with the Cyber Crime Unit to assist in investigating digital frauds, tracing IPs, analyzing social media threats, and reporting cyber incidents.",
+    role: "Cybersecurity Intern",
+    company: "UP Police",
+    period: "2025",
+    description: "Worked on cybersecurity initiatives and threat analysis.",
+  },
+  {
+    id: 3,
+    role: "React developer",
+    company: "RICI Tech",
+    period: "2023-24",
+    description: "Developed and maintained user interfaces using React.",
   },
 ];
 

@@ -10,7 +10,7 @@ import Contact from "@/components/Contact";
 import TerminalLoader from "@/components/TerminalLoader";
 
 import Academic from "@/components/Academic";
-
+import Experience from "@/components/Experience";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +24,7 @@ export default function Home() {
           <Hero />
           <Skills />
           <Projects />
+          <Experience />
           <Academic />
           <Certifications />
 
