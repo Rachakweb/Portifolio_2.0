@@ -32,10 +32,10 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "PORTFOLIO GENERATOR WEB",
-    description: "A web application that allows users to create and customize professional portfolios easily. With a simple interface and FPDF integration, users can generate polished PDF documents quickly.",
-    tech: ["Web Interface", "FPDF"],
-    link: "https://github.com/Rachakweb/Portfolio_gen_.git",
+    title: "RakHack OSINT",
+    description: "An advanced OSINT (Open Source Intelligence) tool designed for information gathering and reconnaissance. It provides a suite of utilities for analyzing domains, IP addresses, and other digital footprints.",
+    tech: ["Python", "OSINT", "Reconnaissance"],
+    link: "https://github.com/Rachakweb/RakHack-OSINT.git",
   },
   {
     id: 2,
@@ -134,6 +134,13 @@ export const certifications = [
     issuer: "EU Cyber Academy",
     date: "December 09, 2025",
     image: "/certificates/eu_cyber_academy_crpo.jpg",
+  },
+  {
+    id: 5,
+    title: "Next.js Developer",
+    issuer: "Vercel",
+    date: "2025",
+    image: "/certificates/Next.js.png",
   },
 ];
 

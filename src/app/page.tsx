@@ -8,6 +8,7 @@ import Certifications from "@/components/Certifications";
 import CV from "@/components/CV";
 import Contact from "@/components/Contact";
 import TerminalLoader from "@/components/TerminalLoader";
+import GithubStats from "@/components/GithubStats";
 
 import Academic from "@/components/Academic";
 import Experience from "@/components/Experience";
@@ -24,6 +25,7 @@ export default function Home() {
           <Hero />
           <Skills />
           <Projects />
+          <GithubStats />
           <Experience />
           <Academic />
           <Certifications />

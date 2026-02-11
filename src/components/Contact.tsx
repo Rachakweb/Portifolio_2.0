@@ -9,7 +9,13 @@ const Contact = () => {
             <p style={{ opacity: 0.8, fontSize: '1.2rem', marginBottom: '2rem' }}>
                 Feel free to reach out for collaborations or just a friendly hello!
             </p>
-            <a href={`mailto:${personalDetails.email}`} className="btn btn-primary" style={{ marginBottom: '3rem' }}>
+            <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=ravikumar898911@gmail.com"
+                className="btn btn-primary"
+                style={{ marginBottom: '3rem' }}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 Say Hello
             </a>
 
