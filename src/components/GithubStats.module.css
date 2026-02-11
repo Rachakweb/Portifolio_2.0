@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 1px solid var(--neon-green);
+    box-shadow: 0 0 10px rgba(39, 201, 63, 0.2);
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Scrollbar styling for webkit browsers */
+.container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: var(--neon-green, #27c93f);
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #1a8f2b;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0.2rem;
+        overflow-x: auto;
+        display: flex;
+        justify-content: flex-start;
+        /* Align left to utilize space */
+        align-items: flex-start;
+    }
+}
